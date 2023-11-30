@@ -17,6 +17,10 @@ public class Mobile_Sale {
     frame.setSize(new Dimension(1000,700));
     frame.setDefaultCloseOperation(3);
     frame.setVisible(true);
+    DragandDrop dd=new DragandDrop(); 
+    frame.setLayout(null);
+    frame.add(dd).setBounds(0, 0, 800, 600);
+    frame.getRootPane().updateUI();
     
     }
 int no=1000; 
