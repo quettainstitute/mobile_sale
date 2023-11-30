@@ -4,11 +4,21 @@
  */
 package mobile_sale;
 
+import java.awt.Dimension;
+import javax.swing.JFrame;
+
 /**
  *
  * @author Azeem
  */
 public class Mobile_Sale {
+    Mobile_Sale(){
+    JFrame frame=new JFrame(); 
+    frame.setSize(new Dimension(1000,700));
+    frame.setDefaultCloseOperation(3);
+    frame.setVisible(true);
+    
+    }
 int no=1000; 
     /**
      * @param args the command line arguments
@@ -17,6 +27,7 @@ int no=1000;
         // TODO code application logic here
         //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
         System.out.println("Hi this is my first programe. ");
+        new Mobile_Sale(); 
     }
     
 }
