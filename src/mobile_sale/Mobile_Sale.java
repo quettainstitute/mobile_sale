@@ -9,12 +9,13 @@ package mobile_sale;
  * @author Azeem
  */
 public class Mobile_Sale {
-
+int no=1000; 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        System.out.println("Hi this is my first programe. ");
     }
     
 }
